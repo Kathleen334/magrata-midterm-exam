@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <user>
+        <name>Kathleen M. Magrata</name>
+        <course>BSIT</course>
+        <year_section>3B - G2</year_section>
+        <adviser>Mr. Sheldon V. Arenas</adviser>
+        <school_year>2025-2026</school_year>
+        <image>https://i.pinimg.com/736x/59/4e/26/594e26912c385643a54cc75c2a2b8e70.jpg</image>
+    </user>
+    <user>
+        <name>Marco Villanueva</name>
+        <course>BSCS</course>
+        <year_section>2A - G2</year_section>
+        <adviser>Ms. Carla Santos</adviser>
+        <school_year>2022-2023</school_year>
+        <image>https://i.pinimg.com/736x/f6/22/e6/f622e670c8b25c3d1a0a1eee73cc2c7f.jpg</image>
+    </user>
+    <user>
+        <name>Sophia Dela Cruz</name>
+        <course>BSECE</course>
+        <year_section>4C - G1</year_section>
+        <adviser>Mr. Jose Ramirez</adviser>
+        <school_year>2024-2025</school_year>
+        <image>https://i.pinimg.com/736x/f4/85/ed/f485edaabae2d8781953e293e65c57b7.jpg</image>
+    </user>
+    <user>
+        <name>Daniela Santos</name>
+        <course>BSBA</course>
+        <year_section>1D - G2</year_section>
+        <adviser>Ms. Liza Fernandez</adviser>
+        <school_year>2021-2022</school_year>
+        <image>https://i.pinimg.com/736x/e4/da/17/e4da1716140158405b1387a3bd3859a2.jpg</image>
+    </user>
+    <user>
+        <name>Jared Mendoza</name>
+        <course>BSCpE</course>
+        <year_section>3B - G1</year_section>
+        <adviser>Mr. Arnold De Leon</adviser>
+        <school_year>2023-2024</school_year>
+        <image>https://i.pinimg.com/736x/38/54/a8/3854a8e825bc816e7d7c2caa2c255460.jpg</image>
+    </user>
+    <user>
+        <name>Christine Valdez</name>
+        <course>BSA</course>
+        <year_section>2A - G2</year_section>
+        <adviser>Ms. Karla Mendoza</adviser>
+        <school_year>2022-2023</school_year>
+        <image>https://i.pinimg.com/236x/39/c9/dd/39c9dd2d9c968a15b146186f707f1339.jpg</image>
+    </user>
+    <user>
+        <name>Gabriel Cruz</name>
+        <course>BSN</course>
+        <year_section>4C - G1</year_section>
+        <adviser>Mr. Edgar Lopez</adviser>
+        <school_year>2024-2025</school_year>
+        <image>https://thumbs.dreamstime.com/b/male-university-student-portrait-handsome-african-52813194.jpg</image>
+    </user>
+    <user>
+        <name>Elena Bautista</name>
+        <course>BSPSY</course>
+        <year_section>1D - G2</year_section>
+        <adviser>Ms. Veronica Bautista</adviser>
+        <school_year>2021-2022</school_year>
+        <image>https://i.pinimg.com/236x/af/03/83/af03835c39cee16e5096cfffcd69e528.jpg</image>
+    </user>
+    <user>
+        <name>Lucas Fernandez</name>
+        <course>BSCE</course>
+        <year_section>4E - G1</year_section>
+        <adviser>Mr. Henry Cruz</adviser>
+        <school_year>2024-2025</school_year>
+        <image>https://thumbs.dreamstime.com/b/portrait-smiling-male-college-student-busy-communal-campus-building-portrait-smiling-male-college-student-busy-196643512.jpg</image>
+    </user>
+    <user>
+        <name>Hannah Santiago</name>
+        <course>BSHRM</course>
+        <year_section>2A - G2</year_section>
+        <adviser>Ms. Jennifer Santiago</adviser>
+        <school_year>2022-2023</school_year>
+        <image>https://i.pinimg.com/474x/a5/5e/7f/a55e7fef001ef400c534863aab223500.jpg</image>
+    </user>
+    <user>
+        <name>Ryan Torres</name>
+        <course>BSME</course>
+        <year_section>3C - G2</year_section>
+        <adviser>Mr. Mark Reyes</adviser>
+        <school_year>2023-2024</school_year>
+        <image>https://static.vecteezy.com/system/resources/previews/048/001/460/non_2x/happy-male-university-student-in-classroom-education-learning-western-european-youth-diversity-higher-education-success-photo.jpg</image>
+    </user>
+    <user>
+        <name>Angela Ramirez</name>
+        <course>BSIT</course>
+        <year_section>2B - G1</year_section>
+        <adviser>Ms. Lorna Cruz</adviser>
+        <school_year>2022-2023</school_year>
+        <image>https://i.pinimg.com/736x/b8/2c/32/b82c32decfaaf1374302af6d9db91fc2.jpg</image>
+    </user>
+    <user>
+        <name>Carlos Mendoza</name>
+        <course>BSA</course>
+        <year_section>1A - G1</year_section>
+        <adviser>Mr. Roberto Dela Cruz</adviser>
+        <school_year>2021-2022</school_year>
+        <image>https://i.pinimg.com/736x/0c/1e/72/0c1e72698ec46fcb4aaf58d82f740151.jpg</image>
+    </user>
+    <user>
+        <name>Emilio Alonzo</name>
+        <course>BSTM</course>
+        <year_section>1C - G1</year_section>
+        <adviser>Mr. Brian Alonzo</adviser>
+        <school_year>2021-2022</school_year>
+        <image>https://img.freepik.com/free-photo/school-boy-with-book-park_23-2148199240.jpg</image>
+    </user>
+    <user>
+        <name>Carla Tan</name>
+        <course>BSPharm</course>
+        <year_section>3F - G2</year_section>
+        <adviser>Ms. Olivia Tan</adviser>
+        <school_year>2023-2024</school_year>
+        <image>https://i.pinimg.com/736x/44/f2/c2/44f2c2b7f53a2f83d0ade6f95ea5a960.jpg</image>
+    </user>
+    <user>
+        <name>Patrick Rivera</name>
+        <course>BSEd</course>
+        <year_section>4B - G1</year_section>
+        <adviser>Mr. Albert Pineda</adviser>
+        <school_year>2024-2025</school_year>
+        <image>https://www.shutterstock.com/image-photo/face-portrait-student-man-university-600nw-2248535531.jpg</image>
+    </user>
+        <user>
+            <name>Vincent Dantes</name>
+            <course>BSIT</course>
+            <year_section>2B - G2</year_section>
+            <adviser>Mr. Jayson De Guzman</adviser>
+            <school_year>2022-2023</school_year>
+            <image>https://www.shutterstock.com/image-photo/young-adolescent-university-student-boy-600nw-2473697481.jpg</image>
+        </user>
+        <user>
+        <name>Maria Lopez</name>
+        <course>BSN</course>
+        <year_section>1A - G1</year_section>
+        <adviser>Ms. Rebecca Santos</adviser>
+        <school_year>2024-2025</school_year>
+        <image>https://i.pinimg.com/736x/3a/29/c2/3a29c28856097dd73cf3af9319bdfb36.jpg</image>
+    </user>
+    <user>
+        <name>James Bautista</name>
+        <course>BSCS</course>
+        <year_section>3C - G3</year_section>
+        <adviser>Mr. Edward Cruz</adviser>
+        <school_year>2023-2024</school_year>
+        <image>https://i.pinimg.com/736x/9c/68/49/9c6849d6cb85a9e14ab7552cd67317e5.jpg</image>
+    </user>
+
+    <user>
+        <name>Andrea Reyes</name>
+        <course>BSA</course>
+        <year_section>2D - G2</year_section>
+        <adviser>Ms. Teresa Mendoza</adviser>
+        <school_year>2022-2023</school_year>
+        <image>https://i.pinimg.com/736x/36/2c/a5/362ca55140c97cce4c6a1cd7640a8475.jpg</image>
+    </user>
+
+</library>

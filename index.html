@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Colleges</title>
+    <style>
+    body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: #2c3e50;
+    border-bottom: 3px solid #2980b9;
+    display: inline-block;
+    padding-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+h1:hover {
+    color: #1a5276;
+    border-bottom: 3px solid #1a5276;
+    transform: scale(1.1);
+}
+
+        #users-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .user-card {
+    background: white;
+    padding: 12px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    text-align: left;
+    display: flex;
+    position: relative;
+    align-items: center;
+    border: 2px solid #d1d1d1; /* Light grey border */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 12px;
+}
+
+.user-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    border: 2px solid #b0b0b0; /* Slightly darker grey on hover */
+}
+
+        .user-card img {
+            width: 50px;
+            height: 50px;
+            border-radius: 3px;
+            border: 3px solid #ccc;
+            object-fit: cover;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .user-info {
+            font-size: 12px;
+            color: #000000;
+            flex-grow: 1;
+            padding-right: 70px;
+            
+        }
+
+        p {
+            margin: 8px 0;
+        }
+
+        @media (max-width: 600px) {
+            .user-card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>ABC Colleges</h1>
+    <h2>Meet Our Library Users:</h2>
+    <div id="users-container"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('kathleen_magrata.xml')
+                .then(response => response.text())
+                .then(data => {
+                    const parser = new DOMParser();
+                    const xml = parser.parseFromString(data, "text/xml");
+                    displayUsers(xml);
+                })
+                .catch(error => console.error('Error loading XML:', error));
+        });
+
+        function displayUsers(xml) {
+            const usersContainer = document.getElementById("users-container");
+            const users = xml.getElementsByTagName("user");
+            usersContainer.innerHTML = "";
+            
+            Array.from(users).forEach(user => {
+                let name = user.getElementsByTagName("name")[0].textContent;
+                let course = user.getElementsByTagName("course")[0].textContent;
+                let yearSection = user.getElementsByTagName("year_section")[0].textContent;
+                let adviser = user.getElementsByTagName("adviser")[0].textContent;
+                let schoolYear = user.getElementsByTagName("school_year")[0].textContent;
+                let image = user.getElementsByTagName("image")[0].textContent;
+                
+                if (image.startsWith("https://www.google.com/url?")) {
+                    image = 'https://via.placeholder.com/50';
+                }
+                
+                let userCard = document.createElement("div");
+                userCard.classList.add("user-card");
+
+                userCard.innerHTML = `
+                    <div class="user-info">
+                        <p><strong>Name:</strong> ${name}</p>
+                        <p><strong>Course:</strong> ${course}</p>
+                        <p><strong>Year Level / Section:</strong> ${yearSection}</p>
+                        <p><strong>Adviser:</strong> ${adviser}</p>
+                        <p><strong>School Year:</strong> ${schoolYear}</p>
+                    </div>
+                    <img src="${image}" alt="Profile Picture" onerror="this.onerror=null;this.src='https://via.placeholder.com/50';">
+                `;
+
+                usersContainer.appendChild(userCard);
+            });
+        }
+    </script>
+</body>
+</html>
